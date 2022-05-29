@@ -2,6 +2,7 @@ import "./App.css";
 import Stopwatch from "./components/Stopwatch";
 import Timer from "./components/Timer";
 import { GiSandsOfTime } from "react-icons/gi";
+import { BiStopwatch } from "react-icons/bi";
 import { useState } from "react";
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       </div>
 
       <div onClick={() => setShow("showstopwatch")} className={show == "showstopwatch" ? "head2" : "heading2"}>
-        <GiSandsOfTime />
+        <BiStopwatch />
         <p>StopWatch</p>
       </div>
 
